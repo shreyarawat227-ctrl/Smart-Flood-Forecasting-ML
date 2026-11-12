@@ -1,0 +1,12 @@
+{
+  "dataset": "archive_flood_dataset_160.csv",
+  "dataset_rows": 160,
+  "features": 20,
+  "train_rows": 128,
+  "test_rows": 32,
+  "model": "RandomForestRegressor",
+  "mae": 0.03170845176091268,
+  "rmse": 0.0404675650479972,
+  "r2": 0.3424590077183788,
+  "note": "Small 160-row subset; test metrics may vary and are not evidence of real-world flood warning accuracy."
+}

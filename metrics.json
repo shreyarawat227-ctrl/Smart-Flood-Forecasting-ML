@@ -1,0 +1,34 @@
+{
+  "model": "RandomForest",
+  "threshold": 0.30999999999999994,
+  "roc_auc": 0.9852124539839021,
+  "pr_auc": 0.833664345265571,
+  "brier": 0.021271792671721614,
+  "recall": 0.7741935483870968,
+  "precision": 0.676056338028169,
+  "f2": 0.7523510971786834,
+  "false_alarms": 23,
+  "missed_floods": 14,
+  "tp": 48,
+  "tn": 1011,
+  "train_end": "2027-12-30",
+  "cv": [
+    {
+      "model": "LogisticRegression",
+      "cv_pr_auc": 0.8455867074627142,
+      "cv_std": 0.016405549821805247
+    },
+    {
+      "model": "RandomForest",
+      "cv_pr_auc": 0.8581247051472977,
+      "cv_std": 0.03931105507511378
+    },
+    {
+      "model": "GradientBoosting",
+      "cv_pr_auc": 0.850589454223666,
+      "cv_std": 0.02986026327660938
+    }
+  ],
+  "baseline_recall": 0.8225806451612904,
+  "baseline_precision": 0.5795454545454546
+}
